@@ -304,3 +304,9 @@ html body .form-container {
 html body .form-container.visible {
   display: block;
 }
+html body .form-control:focus {
+  outline: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
