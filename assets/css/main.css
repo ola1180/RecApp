@@ -269,6 +269,38 @@ summary {
   display: list-item;
 }
 
-a {
+html {
+  scroll-behavior: smooth;
+  font-size: 8.5px;
+  font-size: clamp(8.5px, 7.6346153846px + 0.2307692308vw, 10px);
+}
+html body {
+  background-color: #fff;
+  font-family: "Manrope", sans-serif;
+  color: #000;
+  font-size: 1.2rem;
+}
+html body .container-custom {
+  max-width: 500px;
+}
+html body h1 {
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 4rem;
+}
+html body a {
   text-decoration: none;
+  color: #BC6F34;
+}
+html body i {
+  color: #BC6F34;
+  font-size: 1.8rem;
+}
+html body .welcome-text {
+  font-size: 2.4rem;
+}
+html body .form-container {
+  display: none;
+}
+html body .form-container.visible {
+  display: block;
 }
