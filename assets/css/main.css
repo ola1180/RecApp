@@ -310,3 +310,6 @@ html body .form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
+html body .btn {
+  font-size: 1.5rem;
+}
