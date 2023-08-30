@@ -1,4 +1,16 @@
-@import "variables";
-@import "mixins";
-@import "normalize";
-@import "global";
+$primary: #bc6f34;
+$card-cap-bg: rgba(var(--bs-body-color-rgb), 0);
+$headings-font-family:'Nothing You Could Do',
+cursive;
+$border-radius: 0;
+$border-color: #000;
+$border-color-translucent: #000;
+$body-tertiary-bg:#fff;
+$border-width: 0;
+
+
+
+// imports
+@import './global';
+@import './normalize';
+@import '../../node_modules/bootstrap/scss/bootstrap'
